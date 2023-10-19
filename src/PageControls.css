@@ -1,0 +1,56 @@
+.page-controls {
+  display: flex;
+  align-items: center;
+  margin: 0 12px; /* Adjusted margin */
+  justify-content: center;
+}
+
+.page-controls ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.page-controls ul li {
+  padding: 4px;
+  align-self: center;
+  border-radius: 12px; /* Changed border-radius value */
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer; /* Added cursor pointer for better UX */
+  height: 30px;
+  background-color: #1990ff; /* Changed background color */
+}
+
+.page-controls ul li:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.page-controls ul li button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent; /* Changed background color */
+  border: none;
+  border-radius: 50%;
+}
+
+.page-controls button.active {
+  background-color: #5cb0ffdf;
+}
+
+.delete-button {
+  width: 9vw;
+  height: 3vh;
+  border-radius: 12px;
+  background-color: #ff5071;
+  cursor: pointer;
+  border: none;
+}
+
+.delete-button:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}

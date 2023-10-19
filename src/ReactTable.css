@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: arial, sans-serif;
+  margin-top: 12px;
+}
+
+th,
+td {
+  border-right: none;
+  text-align: left;
+  padding: 8px;
+  border-left: 1px solid #dddddd;
+  border: none;
+}
+tr {
+  border-bottom: 1px solid #dddddd; /* Add this line to create a horizontal line after each row */
+}
+
+.icons button {
+  background-color: transparent;
+  border: none;
+  margin: 12px 0;
+}
+
+.selected-row {
+  background-color: rgba(209, 171, 171, 0.171);
+}
+
+.fa-trash {
+  color: red;
+}

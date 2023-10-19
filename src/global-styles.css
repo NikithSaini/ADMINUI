@@ -1,0 +1,14 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  font-family: "Arial";
+}
+
+code {
+  padding: 3px 5px;
+  border: 1px solid #ccc;
+  font-family: "Courier New";
+  color: #333;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
