@@ -13,9 +13,6 @@ td {
   border-left: 1px solid #dddddd;
   border: none;
 }
-tr {
-  border-bottom: 1px solid #dddddd; /* Add this line to create a horizontal line after each row */
-}
 
 .icons button {
   background-color: transparent;

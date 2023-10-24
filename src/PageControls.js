@@ -1,5 +1,5 @@
 import React from "react";
-import "./PageControls.css"; // Updated CSS file name
+import "./PageControls.css";
 
 const PageControls = ({
   totalPageCount,

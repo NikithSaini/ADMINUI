@@ -1,32 +1,40 @@
 .page-controls {
   display: flex;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
   align-items: center;
-  margin: 0 12px; /* Adjusted margin */
-  justify-content: center;
 }
 
 .page-controls ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   gap: 20px;
 }
 
 .page-controls ul li {
-  padding: 4px;
+  /* padding: 4px; */
   align-self: center;
-  border-radius: 12px; /* Changed border-radius value */
+  border-radius: 55px;
   text-align: center;
-  overflow: hidden;
-  cursor: pointer; /* Added cursor pointer for better UX */
+  justify-content: space-between;
+  cursor: pointer;
   height: 30px;
-  background-color: #1990ff; /* Changed background color */
+  width: 30px;
+  background-color: #1990ff;
 }
 
 .page-controls ul li:hover {
   transform: scale(1.1);
   transition: all 0.2s ease;
+  /* overflow: hidden; */
 }
 
 .page-controls ul li button {
@@ -34,7 +42,7 @@
   width: 100%;
   background-color: transparent; /* Changed background color */
   border: none;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 
 .page-controls button.active {
@@ -42,12 +50,16 @@
 }
 
 .delete-button {
-  width: 9vw;
-  height: 3vh;
-  border-radius: 12px;
-  background-color: #ff5071;
-  cursor: pointer;
+  padding: 8px 16px;
+  background-color: red;
   border: none;
+  border-radius: 20px; /* Task 2: Rounded button */
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  left: 20px;
+
+  bottom: 10px;
 }
 
 .delete-button:hover {
